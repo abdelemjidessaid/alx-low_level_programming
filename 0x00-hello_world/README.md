@@ -12,7 +12,7 @@
 >
 > 6. *5-printf.c* Script that print exactly *with proper grammar, but the outcome is a piece of art,* with printf function followed by new line
 >
->
+> 7. *6-size.c* Script that prints sizes of data types int C
 >
 >
 >
