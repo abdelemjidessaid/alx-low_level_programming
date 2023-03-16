@@ -10,11 +10,12 @@ int main(void)
 {
 char string[] = "and that piece of art is useful\" - \
 Dora Korpar, 2015-10-19\n";
-int len = strlen(string);
-int i;
-for (i = 0; i < len; i++)
-{
-		putchar((int)string[i]);
-}
+const int len = strlen(string);
+int i = 0;
+
+	do {
+		putchar((int) string[i]);
+		i++;
+	} while (i < len);
 return (1);
 }
