@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char quote = '"';
-puts("%cProgramming is like building a multilingual puzzle\n", quote);
+char quote[] = "\"Programming is like building a multilingual puzzle\n";
+puts(quote);
 return (0);
 }
