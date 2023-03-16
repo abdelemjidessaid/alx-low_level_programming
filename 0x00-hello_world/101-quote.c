@@ -11,7 +11,8 @@ int main(void)
 char string[] = "and that piece of art is useful\" - \
 Dora Korpar, 2015-10-19\n";
 int len = strlen(string);
-for (int i = 0; i < len; i++)
+int i;
+for (i = 0; i < len; i++)
 {
 		putchar((int)string[i]);
 }
