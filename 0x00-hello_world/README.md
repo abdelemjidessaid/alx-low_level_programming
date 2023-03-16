@@ -8,9 +8,9 @@
 >
 > 4. *3-name* Script that compile a C file and creates an executable file named cisfun.c
 >
-> 5. *4-puts.c* Script that prints exactaly "Programming is like building a multilingual puzzle
+> 5. *4-puts.c* Script that prints exactaly *"Programming is like building a multilingual puzzle*
 >
->
+> 6. *5-printf.c* Script that print exactly *with proper grammar, but the outcome is a piece of art,* with printf function followed by new line
 >
 >
 >
