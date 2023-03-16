@@ -14,8 +14,8 @@
 >
 > 7. *6-size.c* Script that prints sizes of data types int C
 >
+> 8. *100-intel* Stript that generate assembly code of intel, from C file
 >
->
->
+> 9. *101-quote.c* Program that exactly *nd that piece of art is useful" - Dora Korpar, 2015-10-19* followed by new line without using any of these functions *printf* or *puts*
 >
 
