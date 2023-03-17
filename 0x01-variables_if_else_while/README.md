@@ -4,4 +4,6 @@
 >
 > 2. *1-last_digit.c* Program of C that prints the last digit of a random number for each time it is executed
 >
+> 3. *2-print_alphabet.c* Program of C that prints all alphabet in lower case, without using *printf* or *puts*
 >
+> 4. **
