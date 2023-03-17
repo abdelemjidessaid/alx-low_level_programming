@@ -14,4 +14,6 @@
 >
 > 7. *6-print_numberz.c* Program in C that prints all digtis in base 10, with just *putchar* function, with just 1 variable of type *char*
 >
-> 8. **
+> 8. *7-print_tebahpla.c* Program in C that prints all alphabet with reverse order, using *putchar* function
+>
+> 9. **
