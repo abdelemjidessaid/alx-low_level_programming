@@ -6,4 +6,6 @@
 >
 > 3. *2-print_alphabet.c* Program of C that prints all alphabet in lower case, without using *printf* or *puts*
 >
-> 4. **
+> 4. *3-print_alphabets.c* Program of C that prints all alphabet in lower and upper case, using just *putchar* function
+>
+> 5. 
