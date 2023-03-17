@@ -10,4 +10,6 @@
 >
 > 5. *4-print_alphabt.c* Program of C that prints all alphabet except 'e' and 'q' in lower case, using just *putchar* function
 >
-> 6. **
+> 6. *5-print_numbers.c* Program of C that prints all digits in base 10, just with *putchar* function
+>
+> 7. **
