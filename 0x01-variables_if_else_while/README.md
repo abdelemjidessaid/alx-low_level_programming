@@ -8,4 +8,6 @@
 >
 > 4. *3-print_alphabets.c* Program of C that prints all alphabet in lower and upper case, using just *putchar* function
 >
-> 5. 
+> 5. *4-print_alphabt.c* Program of C that prints all alphabet except 'e' and 'q' in lower case, using just *putchar* function
+>
+> 6. **
