@@ -22,4 +22,7 @@
 >
 > 11. *100-print_comb3.c* This program prints all combinations of two digits of base 10
 >
-> 12. **
+> 12. *101-print_comb4.c* This program prints all combinations posible of three digits of base 10
+>
+> 13. **
+>
