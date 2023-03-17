@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio>
 
 /**
  * main - Entry point
@@ -7,31 +7,16 @@
  */
 int main(void)
 {
-int count = 0;
+	int i;
 
-while (count <= 9)
-{
-	int i = 48 + count;
-	int s = i;
-
-	do {
+	for (i = 48; i <= 57; i++)
+	{
 		putchar(i);
-
-		if (i == 57)
-		{
-			i = 47;
-		}
-		i++;
-
-		if (i != s)
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-	} while (i != s);
-
-	putchar('\n');
-	count++;
-}
+	}
 	return (0);
 }
