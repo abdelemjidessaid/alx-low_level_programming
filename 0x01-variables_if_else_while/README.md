@@ -18,4 +18,6 @@
 >
 > 9. *8-print_base16.c* This program prints all digits in base 16, using *putchar* function
 >
-> 10. **
+> 10. *9-print_comb.c* This program prints all combinations posible of all digits of base 10
+>
+>
