@@ -24,5 +24,5 @@
 >
 > 12. *101-print_comb4.c* This program prints all combinations posible of three digits of base 10
 >
-> 13. **
+> 13. *102-print_comb5.c* This program prints all combinations posible of two two-digits of base 10 without duplicates numbers
 >
