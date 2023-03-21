@@ -11,3 +11,9 @@ int _putchar(char c);
 
 void print_alphabet(void);
 #endif
+
+#ifndef PRINT_ALPHABET_10X
+#define PRINT_ALPHABET_10X
+
+void print_alphabet_10x(void);
+#endif
