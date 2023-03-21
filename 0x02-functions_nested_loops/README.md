@@ -8,4 +8,6 @@
 >
 > - **2-print_alphabet_x10.c** Program that prints alphabet in lower case followed by new line  10 times
 >
-> - 
+> - **3-islower.c** Program that checks if char is lower case or not, lower case return 1 else return 1
+>
+> -
