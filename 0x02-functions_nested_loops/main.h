@@ -1,22 +1,13 @@
 #include <unistd.h>
 
-#ifndef PRINT_ALPHABET
-#define PRINT_ALPHABET
-void print_alphabet();
-#endif
+#ifndef _PUTCHAR
+#define _PUTCHAR
 
 int _putchar(char c);
+#endif
 
-/**
- * print_alphabet - prints all alphabet in lower case
- */
-void print_alphabet()
-{
-	int i;
+#ifndef PRINT_ALPHABET
+#define PRINT_ALPHABET
 
-	for (i = 97; i < 123; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-}
+void print_alphabet();
+#endif

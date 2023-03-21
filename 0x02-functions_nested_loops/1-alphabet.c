@@ -1,12 +1,15 @@
-#include "main.h"
+#include "1-alphabet.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - prints all alphabet in lower case
  */
-int main(void)
+void print_alphabet()
 {
-	print_alphabet();
-	return (0);
+	int i;
+
+	for (i = 97; i < 123; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
