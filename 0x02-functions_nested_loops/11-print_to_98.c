@@ -18,8 +18,8 @@ void print_to_98(int n)
 			{
 				int d = (i / 10);
 
-				_putchar((i / 10) + 48);
 				_putchar((d / 10) + 48);
+				_putchar((d % 10) + 48);
 				_putchar((i % 10) + 48);
 			}
 			else
@@ -55,12 +55,6 @@ void print_to_98(int n)
 				if (i >= 10)
 					_putchar((i / 10) + 48);
 				_putchar((i % 10) + 48);
-			}
-
-			if (i != 98)
-			{
-				_putchar(',');
-				_putchar(' ');
 			}
 
 			if (i != 98)
