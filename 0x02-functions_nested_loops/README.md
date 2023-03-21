@@ -18,4 +18,6 @@
 >
 > - **7-print_last_digit.c** Function that returns the last digit of a given number
 >
+> - **8-24_hours.c** Function that prints every minute of the day
+>
 > -
