@@ -16,4 +16,6 @@
 >
 > - **6-abs.c** Function that return the absolute value of numbers
 >
+> - **7-print_last_digit.c** Function that returns the last digit of a given number
+>
 > -

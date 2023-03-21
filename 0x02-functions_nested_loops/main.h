@@ -42,4 +42,10 @@ int print_sign(int n);
 int _abs(int n);
 #endif
 
+#ifndef PRINT_LAST_DIGIT
+#define PRINT_LAST_DIGIT
+
+int print_last_digit(int n);
+#endif
+
 
