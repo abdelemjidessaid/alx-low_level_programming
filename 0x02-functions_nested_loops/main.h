@@ -63,7 +63,7 @@ void times_table(void);
 #ifndef ADD
 #define ADD
 
-int add(int n, m);
+int add(int n, int m);
 #endif
 
 
