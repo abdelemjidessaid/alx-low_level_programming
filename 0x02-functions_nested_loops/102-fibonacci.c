@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned long i = 0, j = 1, k;	
+	unsigned long i = 0, j = 1, k;
 	int count;
 
 	for (count = 0; count < 50; count++)
@@ -20,7 +20,6 @@ int main(void)
 			putchar('\n');
 		else
 			printf(", ");
-		
 	}
 	return (0);
 }
