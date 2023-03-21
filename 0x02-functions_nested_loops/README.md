@@ -26,3 +26,6 @@
 >
 > - **11-print_to_98.c** Function that prints from a given number to 98
 >
+> - **100-times_table.c** Function that prints n time tables
+>
+> -
