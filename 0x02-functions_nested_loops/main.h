@@ -66,4 +66,10 @@ void times_table(void);
 int add(int n, int m);
 #endif
 
+#ifndef PRINT_TO_98
+#define PRINT_TO_98
+
+void print_to_98(int n);
+#endif
+
 
