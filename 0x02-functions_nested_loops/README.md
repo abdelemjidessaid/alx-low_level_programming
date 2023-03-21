@@ -28,4 +28,6 @@
 >
 > - **100-times_table.c** Function that prints n time tables
 >
+> - **101-natural.c** Function that prints multiplies of numbers
+>
 > -
