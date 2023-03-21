@@ -20,4 +20,6 @@
 >
 > - **8-24_hours.c** Function that prints every minute of the day
 >
-> -
+> - **9-times_table.c** Function that prints the 9 times table
+>
+>
