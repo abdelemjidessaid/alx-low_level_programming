@@ -16,13 +16,14 @@ void print_times_table(int n)
 			for ( ; j <= n; i++)
 			{
 				int mul = i * j;
-				
+
 				if (j > 0 && j < n)
 					_putchar(',');
 
 				if (mul >= 100)
 				{
 					int t = mul / 10;
+
 					_putchar(' ');
 					_putchar((t / 10) + 48);
 					_putchar((t % 10) + 48);
