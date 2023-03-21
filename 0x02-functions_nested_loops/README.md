@@ -22,4 +22,5 @@
 >
 > - **9-times_table.c** Function that prints the 9 times table
 >
+> - **10-add.c** Function that returns the summation of two numbers
 >
