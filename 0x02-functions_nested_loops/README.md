@@ -30,4 +30,6 @@
 >
 > - **101-natural.c** Function that prints multiplies of numbers
 >
+> - **102-fibonacci.c** Program that prints first 50 fibonacci numbers
+>
 > -
