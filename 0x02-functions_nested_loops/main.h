@@ -12,8 +12,8 @@ int _putchar(char c);
 void print_alphabet(void);
 #endif
 
-#ifndef PRINT_ALPHABET_10X
-#define PRINT_ALPHABET_10X
+#ifndef PRINT_ALPHABET_X10
+#define PRINT_ALPHABET_X10
 
-void print_alphabet_10x(void);
+void print_alphabet_x10(void);
 #endif
