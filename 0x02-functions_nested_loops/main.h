@@ -9,5 +9,5 @@ int _putchar(char c);
 #ifndef PRINT_ALPHABET
 #define PRINT_ALPHABET
 
-void print_alphabet();
+void print_alphabet(void);
 #endif
