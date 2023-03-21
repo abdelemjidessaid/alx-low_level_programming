@@ -32,4 +32,7 @@
 >
 > - **102-fibonacci.c** Program that prints first 50 fibonacci numbers
 >
-> -
+> - **103-fibonacci.c** Program that prints the fibonacci numbers
+>
+> - **104-fibonacci.c** Program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line
+>
