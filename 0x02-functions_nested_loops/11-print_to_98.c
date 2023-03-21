@@ -14,20 +14,60 @@ void print_to_98(int n)
 	{
 		for ( ; i >= 98; i--)
 		{
-			puts(i);
+			if (i > 100)
+			{
+				int d = (i / 10);
+
+				_putchar((i / 10) + 48);
+				_putchar((d / 10) + 48);
+				_putchar((i % 10) + 48);
+			}
+			else
+			{
+				_putchar((i / 10) + 48);
+				_putchar((i % 10) + 48);
+			}
 
 			if (i != 98)
-				printf(", ");
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
 	else
 	{
 		for ( ; i <= 98; i++)
 		{
-			puts(i);
+			int d;
+
+			if (i < 0)
+			{
+				d = i * -1;
+				_putchar('-');
+				
+				if (d >= 10)
+					_putchar((d / 10) + 48);
+				_putchar((d % 10) + 48);
+			}
+			else
+			{
+				if (i >= 10)
+					_putchar((i / 10) + 48);
+				_putchar((i % 10) + 48);
+			}
 
 			if (i != 98)
-				printf(", ");
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+
+
+
+
+			if (i != 98)
+			if (i != 98)
 		}
 	}
 	_putchar('\n');
