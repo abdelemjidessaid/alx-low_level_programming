@@ -12,4 +12,6 @@
 >
 > - **4-isalpha.c** Function that checks for alphabet (lower or upper) case
 >
-> -
+> - **5-sign.c** Function that checks the number and prints a sign, and returns a value
+>
+> - 
