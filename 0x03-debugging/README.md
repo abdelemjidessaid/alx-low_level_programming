@@ -8,3 +8,5 @@
 >
 > - **2-largest_number.c** In this task we will fix the error in this file ___2-largest_number.c___
 >
+> - **3-print_remaining_days.c** In this task we will fix the erros about the months and days in this file ___3-print_remaining_days.c___
+>
