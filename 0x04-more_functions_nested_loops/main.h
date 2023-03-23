@@ -54,4 +54,10 @@ void print_line(int n);
 void print_diagonal(int n);
 #endif /* end print_diagonal */
 
+#ifndef PRINT_SQUARE /* print_square */
+#define PRINT_SQUARE
+
+void print_square(int size);
+#endif /* end print_square */
+
 
