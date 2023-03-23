@@ -42,4 +42,10 @@ void print_most_numbers(void);
 void more_numbers(void);
 #endif /* more_numbers */
 
+#ifndef PRINT_LINE /* print_line */
+#define PRINT_LINE
+
+void print_line(int n);
+#endif /* end print_line */
+
 
