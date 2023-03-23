@@ -60,4 +60,10 @@ void print_diagonal(int n);
 void print_square(int size);
 #endif /* end print_square */
 
+#ifndef PRINT_TRIANGLE /* print_triangle */
+#define RPINT_TRIANGLE
+
+void print_triangle(int size);
+#endif /* print_triangle */
+
 
