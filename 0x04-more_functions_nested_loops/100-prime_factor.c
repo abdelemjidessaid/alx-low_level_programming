@@ -13,11 +13,10 @@ int main(void)
 	for (i = 2; i < num; i++)
 	{
 		if (num % i == 0)
-		{
-			printf("%lu\n", num / i);
-			break;
-		}
+			num /= i;
 	}
+
+	printf("%lu\n", num);
 
 	return (0);
 }
