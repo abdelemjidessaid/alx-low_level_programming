@@ -66,4 +66,10 @@ void print_square(int size);
 void print_triangle(int size);
 #endif /* print_triangle */
 
+#ifndef PRINT_NUMBER /* print_number */
+#define PRINT_NUMBER
+
+void print_number(int n);
+#endif /* end print_number */
+
 
