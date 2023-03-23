@@ -30,4 +30,16 @@ int mul(int a, int b);
 void print_numbers(void);
 #endif /* print_numbers */
 
+#ifndef PRINT_MOST_NUMBERS /* print_most_numbers */
+#define PRINT_MOST_NUMBERS
+
+void print_most_numbers(void);
+#endif /* PRINT_MOST_NUMBERS */
+
+#ifndef MORE_NUMBERS /* more_numbers */
+#define MORE_NUMBERS
+
+void more_numbers(void);
+#endif /* more_numbers */
+
 
