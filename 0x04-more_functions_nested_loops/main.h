@@ -1,9 +1,15 @@
 #include <unistd.h>
 
-#ifndef _ISUPPER /* is upper */
+#ifndef _ISUPPER /* isupper */
 #define _ISUPPER
 
 int _isupper(int c);
-#endif /* end is upper */
+#endif /* end isupper */
+
+#ifndef _ISDIGIT /* isdigit */
+#define _ISDIGIT
+
+int _isdigit(int c);
+#endif /* end isdigit */
 
 
