@@ -12,4 +12,10 @@ int _isupper(int c);
 int _isdigit(int c);
 #endif /* end isdigit */
 
+#ifndef MUL /* mul */
+#define MUL
+
+int mul(int a, int b);
+#endif /* end mul */
+
 
