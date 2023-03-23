@@ -48,4 +48,10 @@ void more_numbers(void);
 void print_line(int n);
 #endif /* end print_line */
 
+#ifndef PRINT_DIAGONAL /* print_diagonal */
+#define PRINT_DIAGONAL
+
+void print_diagonal(int n);
+#endif /* end print_diagonal */
+
 
