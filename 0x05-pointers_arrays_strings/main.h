@@ -52,7 +52,7 @@ void print_array(int *a, int n);
 
 #ifndef _STRCPY /* start _strcpy */
 #define _STRCPY
-char* _strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 #endif /* end _strcpy */
 
 #ifndef _ISDIGIT /* start _isdigit */

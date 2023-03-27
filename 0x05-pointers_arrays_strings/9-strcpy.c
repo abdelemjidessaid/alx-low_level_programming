@@ -9,14 +9,16 @@
  * Return: string copied to dest
  */
 
-char* _strcpy(char *dest, char *str)
+char *_strcpy(char *dest, char *src)
 {
-	int i, len = strlen(str);
+	int i = 0, len = strlen(src);
 
-	for (i = 0; i < len; i++)
+	while (src[i] != '\0')
 	{
-		dest[i] = str[i];
+		dest[i] = src[i];
+		i++;
 	}
+	dest[i] = '\0';
 
 	return (dest);
 }
