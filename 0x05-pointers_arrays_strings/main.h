@@ -55,26 +55,6 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 #endif /* end _strcpy */
 
-#ifndef _ISDIGIT /* start _isdigit */
-#define _ISDIGIT
-int _isdigit(char c);
-#endif /* end _isdigit */
-
-#ifndef POS_NEG /* start */
-#define POS_NEC
-int pos_neg(char *str);
-#endif /* end */
-
-#ifndef CALC_DIGITS /* start */
-#define CALC_DIGITS
-int calc_digits(char *str);
-#endif /* end */
-
-#ifndef TRIM_DIGITS /* start trim_digits */
-#define TRIM_DIGITS
-char* trim_digits(char *str);
-#endif /* end trim_digits */
-
 #ifndef _ATOI /* start atoi */
 #define _ATOI
 int _atoi(char *s);
