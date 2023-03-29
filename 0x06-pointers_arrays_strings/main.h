@@ -10,4 +10,9 @@ int _putchar(char c);
 char *_strcat(char *dest, char *src);
 #endif /* end */
 
+#ifndef _STRNCAT /* start */
+#define _STRNCAT
+char *_strncat(char *dest, char *src, int n);
+#endif /* end */
+
 

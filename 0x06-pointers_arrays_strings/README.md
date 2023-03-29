@@ -4,4 +4,6 @@
 
 > - **0-strcat.c** Function that concatenate two ___strings___.
 >
+> - **1-strncat.c** Function that concatenate two ___strings___, but it will use at most ***n*** bytes from ***src***.
+>
 > - ****
