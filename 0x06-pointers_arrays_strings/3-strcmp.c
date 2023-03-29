@@ -2,18 +2,17 @@
 #include <string.h>
 
 /**
- * _strcmp - function that compares two strings
- * @s1: first string
- * @s2: second string
- * Return: 0 if the two strings is equal,
- * -1 if s1 less than s2, 1 if s1 greater than s2
+ * _strcmp - function compares two strings
+ * @s1: string one
+ * @s2: string two
+ * Return: 0 if two strings is equals to each other
+ * negative value if s1 less than s2, positive otherwise
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-	const int len = strlen(s1) < strlen(s2) ? strlen(s1) : strlen(s2);
 	unsigned int one, two;
+	int i, len = strlen(s1) < strlen(s2) ? strlen(s1) : strlen(s2);
 
 	for (i = 0; i < len; i++)
 	{

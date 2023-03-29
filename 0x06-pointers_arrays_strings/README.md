@@ -12,4 +12,6 @@
 >
 > - **4-rev_array.c** Function that reverses the content of an ***Array of Integers***.
 >
+> - **5-string_toupper.c** Function convert lowercase ___string___ to uppercase.
+>
 > - ****
