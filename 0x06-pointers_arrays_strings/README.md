@@ -14,4 +14,6 @@
 >
 > - **5-string_toupper.c** Function convert lowercase ___string___ to uppercase.
 >
+> - **7-leet.c** Function that encode string to style of ___1337___.
+>
 > - ****
