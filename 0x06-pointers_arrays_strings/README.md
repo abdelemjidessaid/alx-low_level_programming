@@ -10,4 +10,6 @@
 >
 > - **3-strcmp.c** Function that compare two ___strings___.
 >
+> - **4-rev_array.c** Function that reverses the content of an ***Array of Integers***.
+>
 > - ****
