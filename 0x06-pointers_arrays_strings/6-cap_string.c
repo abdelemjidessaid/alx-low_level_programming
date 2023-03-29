@@ -53,6 +53,8 @@ char *cap_string(char *s)
 
 		if (i > 0 && is_lower(current) && is_special(a[i - 1]))
 			a[i] -= 32;
+		else if (i == 0 && is_lower(current))
+				a[i] -= 32;
 	}
 
 	return (s);
