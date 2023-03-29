@@ -45,3 +45,8 @@ char *cap_string(char *s);
 char *leet(char *);
 #endif /* end */
 
+#ifndef ROT13 /* start */
+#define ROT13
+char *rot13(char *);
+#endif /* end */
+

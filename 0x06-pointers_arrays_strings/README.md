@@ -14,6 +14,10 @@
 >
 > - **5-string_toupper.c** Function convert lowercase ___string___ to uppercase.
 >
+> - **6-cap_string.c** Function that capitalizes all words of a ___string___.
+>
 > - **7-leet.c** Function that encode string to style of ___1337___.
+>
+> - **100-rot13.c** Function that encodes a ___string___ using ___rot13___.
 >
 > - ****
