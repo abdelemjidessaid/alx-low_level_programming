@@ -6,4 +6,8 @@
 >
 > - **1-strncat.c** Function that concatenate two ___strings___, but it will use at most ***n*** bytes from ***src***.
 >
+> - **2-strncpy.c** function that copy ___string___ from ***src*** to ***dest*** with ***n*** bytes of length.
+>
+> - **3-strcmp.c** Function that compare two ___strings___.
+>
 > - ****
