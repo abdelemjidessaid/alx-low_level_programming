@@ -15,4 +15,9 @@ char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 #endif /* end */
 
+#ifndef _STRNCPY /* start */
+#define _STRNCPY
+char *_strncpy(char *dest, char *src, int n);
+#endif /* end */
+
 
