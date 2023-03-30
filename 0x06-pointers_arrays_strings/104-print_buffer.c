@@ -43,6 +43,6 @@ for (j = 0; j < size; j += 10)
 
 	printf("\n");
 }
-if (size == 0)
+if (size <= 0)
 	printf("\n");
 }
