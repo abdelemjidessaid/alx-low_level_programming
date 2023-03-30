@@ -39,13 +39,7 @@ for (j = 0; j < size; j += 10)
 	for (i = j; i < (j + 10); i++)
 	{
 	if (i < size)
-	{
-		int c = b[i];
-		if (c < 32 || c > 132)
-			printf(".");
-		else
-			printf("%c", c);
-	}
+		printf("%c", isprint(b[i]) ? b[i] : '.');
 	else
 		printf(" ");
 	}
