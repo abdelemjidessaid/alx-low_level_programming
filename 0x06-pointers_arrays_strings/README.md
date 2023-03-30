@@ -22,4 +22,6 @@
 >
 > - **101-print_number.c** Function that prints numbers using ___ _putchar___ function only.
 >
+> - **102-magic.c** In this task we should add one line of code to print a special number without changing anything in the code.
+>
 > - ****
