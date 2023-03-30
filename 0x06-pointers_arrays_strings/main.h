@@ -50,3 +50,8 @@ char *leet(char *);
 char *rot13(char *);
 #endif /* end */
 
+#ifndef PRINT_NUMBER /* start */
+#define PRINT_NUMBER
+void print_number(int n);
+#endif /* end */
+

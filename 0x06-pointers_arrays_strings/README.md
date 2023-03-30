@@ -20,4 +20,6 @@
 >
 > - **100-rot13.c** Function that encodes a ___string___ using ___rot13___.
 >
+> - **101-print_number.c** Function that prints numbers using ___ _putchar___ function only.
+>
 > - ****
