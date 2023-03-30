@@ -1,50 +1,55 @@
 #include "main.h"
+#include <string.h>
+#include <ctype.h>
 #include <stdio.h>
 
 /**
- * print_buffer - prints buffer
- * @b: buffer
- * @size: size
+ * print_buffer - function that prints a string buffer
+ * @b: string buffer pointer
+ * @size: the size of buffer in bytes
  * Return: void
  */
 
 void print_buffer(char *b, int size)
 {
-	int o, j, i;
+int i, j;
 
-	o = 0;
+if (size <= 0)
+	printf("\n");
 
-	if (size <= 0)
+for (j = 0; j < size; j += 10)
+{
+	/* print index of this line in hexadecimal */
+	printf("%08x: ", j);
+
+	/* print 2 characters in hexadecimal */
+	for (i = j; i < (j + 10); i += 2)
 	{
-		printf("\n");
-		return;
+		if (i < size)
+			printf("%02x", b[i]);
+		else
+			printf("  ");
+		if ((i + 1) < size)
+			printf("%02x ", b[i + 1]);
+		else
+			printf("   ");
 	}
-	while (o < size)
-	{
-		j = size - o < 10 ? size - o : 10;
-		printf("%08x: ", o);
-		for (i = 0; i < 10; i++)
-		{
-			if (i < j)
-				printf("%02x", *(b + o + i));
-			else
-				printf("  ");
-			if (i % 2)
-			{
-				printf(" ");
-			}
-		}
-		for (i = 0; i < j; i++)
-		{
-			int c = *(b + o + i);
 
-			if (c < 32 || c > 132)
-			{
-				c = '.';
-			}
+	/* print the character if it is printable */
+	for (i = j; i < (j + 10); i++)
+	{
+	if (i < size)
+	{
+		int c = b[i];
+		if (c < 32 || c > 132)
+			printf(".");
+		else
 			printf("%c", c);
-		}
-		printf("\n");
-		o += 10;
 	}
+	else
+		printf(" ");
+	}
+
+	printf("\n");
+}
 }
