@@ -14,7 +14,8 @@ void print_buffer(char *b, int size)
 {
 int i, j;
 
-if (size <= 0) printf("\n");
+if (size <= 0)
+	printf("\n");
 
 for (j = 0; j < size; j += 10)
 {
