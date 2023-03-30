@@ -55,3 +55,8 @@ char *rot13(char *);
 void print_number(int n);
 #endif /* end */
 
+#ifndef INFINITE_ADD /* start */
+#define INFINITE_ADD
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+#endif /* end */
+

@@ -24,4 +24,6 @@
 >
 > - **102-magic.c** In this task we should add one line of code to print a special number without changing anything in the code.
 >
+> - **103-infinite_add.c** This function adds two large numbers from string.
+>
 > - ****
