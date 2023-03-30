@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- * print_buffer - prints buffer
- * @b: buffer
- * @size: size
+ * print_buffer - prints a custom string buffer
+ * @b: pointer of the string buffer
+ * @size: size of the string buffer
  * Return: void
  */
 
@@ -37,11 +38,10 @@ void print_buffer(char *b, int size)
 		{
 			int c = *(b + o + i);
 
-			if (c < 32 || c > 132)
-			{
-				c = '.';
-			}
-			printf("%c", c);
+			if (isprint(c))
+				printf("%c", c);
+			else
+				printf(".");
 		}
 		printf("\n");
 		o += 10;
