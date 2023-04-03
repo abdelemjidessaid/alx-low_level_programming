@@ -17,5 +17,16 @@ int main(void)
     {
         printf("%s\n", f);
     }
+
+    s = "hello how are you";
+    f = _strchr(s, 'u');
+
+    if (f != NULL)
+	    printf("%s\n", f);
+
+    f = _strchr(s, 'h');
+
+    if (f != NULL)
+	    printf("%s\n", f);
     return (0);
 }
