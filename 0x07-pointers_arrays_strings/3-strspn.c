@@ -2,26 +2,24 @@
 #include <string.h>
 
 /**
- * find_index - function that finds
- * the index of a char in a given string
+ * contains - function that checks if a given string
+ * contains a char
  * @s: given string
- * @c: the target character
- * Return: index of character if found, -1 otherwise
+ * @c: given character
+ * Return: 1 if contains, 0 otherwise
  */
 
-int find_index(char *s, char c)
+int contains(char *s, char c)
 {
-	char *p = s;
 	int i, len = strlen(s);
 
 	for (i = 0; i < len; i++)
 	{
-		if (*p == c)
-			return (i);
-		p++;
+		if (s[i] == c)
+			return (1);
 	}
 
-	return (-1);
+	return (0);
 }
 
 /**
@@ -34,13 +32,33 @@ int find_index(char *s, char c)
 
 unsigned int _strspn(char *s, char *accept)
 {
+	char *p = s;
 	unsigned int count = 0;
-	int start = find_index(s, accept[0]);
-	int end = find_index(s, accept[strlen(accept) - 1]);
-	int st = start < end ? start : end;
-	int ed = start < end ? end : start;
+	int i, j, len = strlen(p);
+	unsigned int ac_len = strlen(accept);
 
-	count = (ed - st) + 1;
+	for (i = 0; i < len; i++)
+	{
+		if (contains(accept, p[i]))
+		{
+			for (j = i; j < len; j++)
+			{
+			if (contains(accept, p[j]))
+			{
+				count++;
+			}
+			else
+			{
+				break;
+			}
+			}
+
+			if (count < ac_len)
+				count = 0;
+			else
+				return (count);
+		}
+	}
 
 	return (count);
 }
