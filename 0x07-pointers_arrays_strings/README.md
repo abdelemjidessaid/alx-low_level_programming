@@ -16,4 +16,5 @@
 >
 > - **7-print_chessboard.c** This function prints the chess board from 2D array.
 >
-> - ****
+> - **8-print_diagsums.c** This function prints the summations of diagnols of 2D array.
+>
