@@ -6,4 +6,6 @@
 >
 > - **1-memcpy.c** This function copies the n bytes from string pointer to another.
 >
+> - **2-strchr.c** This functions locates a character in a string.
+>
 > - ****
