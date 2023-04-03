@@ -28,5 +28,13 @@ int main(void)
 
     if (f != NULL)
 	    printf("%s\n", f);
+    s = "";
+    f = _strchr(s, '\0');
+
+    if (f !=  NULL)
+	    printf("%s\n", f);
+    else
+	    printf("NULL\n");
+
     return (0);
 }
