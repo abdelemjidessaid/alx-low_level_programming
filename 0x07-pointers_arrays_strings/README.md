@@ -14,4 +14,6 @@
 >
 > - **5-strstr.c** This function locates a substring.
 >
-> - 
+> - **7-print_chessboard.c** This function prints the chess board from 2D array.
+>
+> - ****
