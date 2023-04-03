@@ -4,4 +4,6 @@
 
 > - **0-memset.c** This function fills memory with contants byte.
 >
+> - **1-memcpy.c** This function copies the n bytes from string pointer to another.
+>
 > - ****

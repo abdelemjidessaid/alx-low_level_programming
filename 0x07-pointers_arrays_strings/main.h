@@ -10,4 +10,9 @@ int _putchar(int c);
 char *_memset(char *s, char b, unsigned int n);
 #endif /* end */
 
+#ifndef _MEMCPY /* start */
+#define _MEMCPY
+char *_memcpy(char *dest, char *src, unsigned int n);
+#endif /* end */
+
 
