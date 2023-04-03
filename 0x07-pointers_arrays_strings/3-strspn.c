@@ -35,7 +35,6 @@ unsigned int _strspn(char *s, char *accept)
 	char *p = s;
 	unsigned int count = 0;
 	int i, j, len = strlen(p);
-	unsigned int ac_len = strlen(accept);
 
 	for (i = 0; i < len; i++)
 	{
@@ -53,10 +52,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			}
 
-			if (count < ac_len)
-				count = 0;
-			else
-				return (count);
+			return (count);
 		}
 	}
 
