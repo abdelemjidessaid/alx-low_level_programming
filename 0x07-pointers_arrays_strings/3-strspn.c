@@ -13,7 +13,7 @@ int contains(char *s, char c)
 {
 	int i, len = strlen(s);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		if (s[i] == c)
 			return (1);
@@ -37,11 +37,11 @@ unsigned int _strspn(char *s, char *accept)
 	int i, j, len = strlen(p);
 	unsigned int ac_len = strlen(accept);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		if (contains(accept, p[i]))
 		{
-			for (j = i; j < len; j++)
+			for (j = i; j <= len; j++)
 			{
 			if (contains(accept, p[j]))
 			{
