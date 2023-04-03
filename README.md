@@ -6,4 +6,6 @@
 >
 > - **0x02-functions_nested_loops** Learn Functions & Loops in C
 >
+> - **0x07-pointers_arrays_strings** Learn more about ***Arrays, Pointers, Strings*** in C.
 >
+> - ****
