@@ -8,4 +8,6 @@
 >
 > - **2-strchr.c** This functions locates a character in a string.
 >
-> - ****
+> - **3-strspn.c** This function that gets the length of a prefix substring.
+>
+> - 
