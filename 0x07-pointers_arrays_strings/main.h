@@ -25,4 +25,9 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 #endif /* end */
 
+#ifndef _STRPBRK /* start */
+#define _STRPBRK
+char *_strpbrk(char *s, char *accept);
+#endif /* end */
+
 
