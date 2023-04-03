@@ -18,3 +18,6 @@
 >
 > - **8-print_diagsums.c** This function prints the summations of diagnols of 2D array.
 >
+> - **100-set_string.c** This function sets the value of a pointer to a char.
+>
+> - ****
