@@ -30,4 +30,9 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 #endif /* end */
 
+#ifndef _STRSTR /* start */
+#define _STRSTR
+char *_strstr(char *haystack, char *needle);
+#endif /* end */
+
 

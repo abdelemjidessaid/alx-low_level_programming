@@ -12,4 +12,6 @@
 >
 > - **4-strpbrk.c** This function searches a string for any of a set of bytes.
 >
+> - **5-strstr.c** This function locates a substring.
+>
 > - 
