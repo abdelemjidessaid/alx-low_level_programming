@@ -13,4 +13,6 @@
 >
 > - **5-sqrt_recursion.c** Function that returns the natural square root of a number.
 >
-> - ****
+> - **6-is_prime_number.c** Function that returns 1 if the given number is prime number, 0 otherwise.
+>
+>

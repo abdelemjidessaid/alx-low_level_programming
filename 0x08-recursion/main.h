@@ -35,4 +35,9 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 #endif /* end */
 
+#ifndef IS_PRIME_NUMBER /* start */
+#define IS_PRIME_NUMBER
+int is_prime_number(int n);
+#endif /* end */
+
 
