@@ -30,4 +30,9 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 #endif /* end */
 
+#ifndef _SQRT_RECURSION /* start */
+#define _SQRT_RECURSION
+int _sqrt_recursion(int n);
+#endif /* end */
+
 

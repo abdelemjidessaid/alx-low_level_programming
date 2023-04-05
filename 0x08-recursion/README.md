@@ -7,6 +7,10 @@
 >
 > - **2-strlen_recursion.c** Function that returns the the length of a string.
 >
-> - **3-factorial.c** Function that return the factorial of a given number.
+> - **3-factorial.c** Function that returns the factorial of a given number.
+>
+> - **4-pow_recursion.c** Function that returns the power of a number of another.
+>
+> - **5-sqrt_recursion.c** Function that returns the natural square root of a number.
 >
 > - ****
