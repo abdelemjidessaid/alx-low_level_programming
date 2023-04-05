@@ -5,4 +5,6 @@
 >
 > - **1-print_rev_recursion.c** Function that prints a string in reverse.
 >
+> - **2-strlen_recursion.c** Function that returns the the length of a string.
+>
 > - ****
