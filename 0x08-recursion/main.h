@@ -25,4 +25,9 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 #endif /* end */
 
+#ifndef _POW_RECURSION /* start */
+#define _POW_RECURSION
+int _pow_recursion(int x, int y);
+#endif /* end */
+
 
