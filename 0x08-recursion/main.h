@@ -40,4 +40,9 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 #endif /* end */
 
+#ifndef IS_PALINDROME /* start */
+#define IS_PALINDROME
+int is_palindrome(char *s);
+#endif /* end */
+
 

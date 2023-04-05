@@ -15,4 +15,6 @@
 >
 > - **6-is_prime_number.c** Function that returns 1 if the given number is prime number, 0 otherwise.
 >
+> - **100-is_palindrome.c** Function that check string if a palindrome or not.
 >
+> - ****
