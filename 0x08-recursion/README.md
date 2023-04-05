@@ -7,4 +7,6 @@
 >
 > - **2-strlen_recursion.c** Function that returns the the length of a string.
 >
+> - **3-factorial.c** Function that return the factorial of a given number.
+>
 > - ****

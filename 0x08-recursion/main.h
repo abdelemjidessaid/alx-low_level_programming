@@ -20,4 +20,9 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 #endif /* end */
 
+#ifndef FACTORIAL /* start */
+#define FACTORIAL
+int factorial(int n);
+#endif /* end */
+
 
