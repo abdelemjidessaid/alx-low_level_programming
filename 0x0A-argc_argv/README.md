@@ -10,4 +10,6 @@
 >
 > - **3-mul.c** This program prints multiplication of two passed numbers.
 >
+> - **4-add.c** This program prints the summations of numbers passed as arguments.
+>
 > - ****
