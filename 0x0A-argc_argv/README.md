@@ -6,4 +6,6 @@
 >
 > - **1-args.c** This program prints the count of arguments passed into it.
 >
+> - **2-args.c** This program prints all arguments that passed into it.
+>
 > - ****
