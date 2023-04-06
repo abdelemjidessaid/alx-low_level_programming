@@ -8,4 +8,6 @@
 >
 > - **2-args.c** This program prints all arguments that passed into it.
 >
+> - **3-mul.c** This program prints multiplication of two passed numbers.
+>
 > - ****
