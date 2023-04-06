@@ -4,4 +4,6 @@
 
 > - **0-whatsmyname.c** This program prints its name.
 >
+> - **1-args.c** This program prints the count of arguments passed into it.
+>
 > - ****
