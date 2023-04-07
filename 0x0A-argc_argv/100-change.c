@@ -10,8 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	long num = 0, rest = 0;
-	int i, result;
+	long num = 0, rest = 0, result = 0;
+	int i;
 	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	printf("%d\n", result);
+	printf("%ld\n", result);
 
 	return (0);
 }
