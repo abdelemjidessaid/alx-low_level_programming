@@ -1,12 +1,10 @@
-#include <unistd.h>
-
 #ifndef _PUTCHAR
 #define _PUTCHAR
 int _putchar(char c);
 #endif
 
 #ifndef _ISLOWER
-#define ISLOWER
+#define _ISLOWER
 int _islower(int c);
 #endif
 
