@@ -17,4 +17,4 @@
 >
 > - **100-is_palindrome.c** Function that check string if a palindrome or not.
 >
-> - ****
+> - **101-wildcmp.c** Function that compares two strings.
