@@ -96,6 +96,6 @@ char **strtow(char *str)
 			list[word_i++] = result;
 		}
 	}
-	/*list[word_i] = NULL;*/
+	list[word_i + 1] = NULL;
 	return (list);
 }
