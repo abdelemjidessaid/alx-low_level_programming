@@ -42,7 +42,7 @@ char *split(char *str, int start, int end)
 	int i = 0, len = (end - start) + 1;
 
 	word = malloc(len * sizeof(char));
-	
+
 	if (word == NULL)
 		return (NULL);
 	for ( ; i < len; i++, start++)
@@ -65,8 +65,7 @@ char **strtow(char *str)
 
 	if (str == NULL || strlen(str) == 0)
 		return (NULL);
-	else
-		len = strlen(str);
+	len = strlen(str);
 	words = calc_words(str);
 	if (words == 0)
 		return (NULL);
