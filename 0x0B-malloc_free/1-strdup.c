@@ -14,13 +14,19 @@ char *_strdup(char *str)
 	char *space;
 	int len = strlen(str), i = 0;
 
-	space = malloc(len * sizeof(char));
-	if (space == NULL || str == NULL)
+	if (str == NULL)
 		return (NULL);
+
+	space = malloc(len * sizeof(char) + 1);
+	if (space == NULL)
+		return (NULL);
+
 	while (i < len)
 	{
 		space[i] = str[i];
 		i++;
 	}
+	space[i] = '\0';
+
 	return (space);
 }
