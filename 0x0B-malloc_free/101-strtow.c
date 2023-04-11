@@ -69,7 +69,7 @@ char **strtow(char *str)
 	words = calc_words(str);
 	if (words == 0)
 		return (NULL);
-	list = malloc((words + 1) * sizeof(char *));
+	list = malloc(words * sizeof(char *) + sizeof(NULL));
 	for (i = 0; i < len; i++)
 	{
 		if (str[i] != ' ' && !flag)
@@ -96,7 +96,6 @@ char **strtow(char *str)
 			list[word_i++] = result;
 		}
 	}
-	list[word_i] = malloc(sizeof(NULL));
 	list[word_i] = NULL;
 	return (list);
 }
