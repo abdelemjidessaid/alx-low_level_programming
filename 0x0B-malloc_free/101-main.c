@@ -34,5 +34,27 @@ int main(void)
         return (1);
     }
     print_tab(tab);
+    tab = strtow("Hello this is me, how are you ?");
+    if (tab == NULL)
+    {
+        printf("Failed\n");
+        return (1);
+    }
+    print_tab(tab);
+    tab = strtow("Nothing!");
+    if (tab == NULL)
+    {
+        printf("Failed\n");
+        return (1);
+    }
+    print_tab(tab);
+    tab = strtow(" Hello world!");
+    if (tab == NULL)
+    {
+        printf("Failed\n");
+        return (1);
+    }
+    print_tab(tab);
+
     return (0);
 }
