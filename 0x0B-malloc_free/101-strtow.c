@@ -63,16 +63,14 @@ char **strtow(char *str)
 	int i, len, words = 0, flag = 0, start = 0, end = 0, word_i = 0;
 	char **list, *result;
 
-	/* check if the string is null or empty */
 	if (str == NULL || strlen(str) == 0)
 		return (NULL);
 	else
 		len = strlen(str);
-	/* calc words */
 	words = calc_words(str);
-	/* init the array of words */
+	if (words == 0)
+		return (NULL);
 	list = malloc((words + 1) * sizeof(char *));
-	/* split words */
 	for (i = 0; i < len; i++)
 	{
 		if (str[i] != ' ' && !flag)
@@ -84,7 +82,6 @@ char **strtow(char *str)
 		{
 			end = i - 1;
 			flag = 0;
-			
 			result = split(str, start, end);
 			if (result == NULL)
 				return (NULL);
@@ -94,15 +91,12 @@ char **strtow(char *str)
 		{
 			end = i;
 			flag = 0;
-
 			result = split(str, start, end);
 			if (result == NULL)
 				return (NULL);
 			list[word_i++] = result;
 		}
-
 	}
 	list[word_i] = NULL;
-
 	return (list);
 }
