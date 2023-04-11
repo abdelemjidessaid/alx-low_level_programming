@@ -96,6 +96,7 @@ char **strtow(char *str)
 			list[word_i++] = result;
 		}
 	}
-	list[word_i + 1] = NULL;
+	list[word_i] = malloc(sizeof(NULL));
+	list[word_i] = NULL;
 	return (list);
 }
