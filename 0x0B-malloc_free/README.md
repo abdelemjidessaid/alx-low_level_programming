@@ -10,4 +10,6 @@
 >
 > - **3-alloc_grid.c** Function that creates a two dimensional array of int.
 >
-> - ****
+> - **4-free_grid.c** Function that frees a grid array which is 2D array.
+>
+> - **
