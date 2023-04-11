@@ -22,3 +22,10 @@ char *_strdup(char *str);
 #define STR_CONCAT
 char *str_concat(char *s1, char *s2);
 #endif /* end */
+
+#ifndef ALLOC_GRID /* start */
+#define ALLOC_GRID
+int **alloc_grid(int width, int height);
+#endif /* end */
+
+

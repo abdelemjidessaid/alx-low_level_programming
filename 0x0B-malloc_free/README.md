@@ -8,4 +8,6 @@
 >
 > - **2-str_concat.c** Function that concatenates two strings.
 >
+> - **3-alloc_grid.c** Function that creates a two dimensional array of int.
+>
 > - ****
