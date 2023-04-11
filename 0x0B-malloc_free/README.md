@@ -6,4 +6,6 @@
 >
 > - **1-strdup.c** Function that create a new memory space and fills it will a specific string.
 >
+> - **2-str_concat.c** Function that concatenates two strings.
+>
 > - ****
