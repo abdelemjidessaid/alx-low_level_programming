@@ -12,4 +12,6 @@
 >
 > - **4-free_grid.c** Function that frees a grid array which is 2D array.
 >
-> - **
+> - **100-argstostr.c** Function that concatenates all arguments into a string.
+>
+> - **101-strtow.c** Function that splits a string into an array of words.
