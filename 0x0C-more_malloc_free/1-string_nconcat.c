@@ -18,17 +18,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL || s2 == NULL)
 		return (NULL);
+	len  = strlen(s2);
+	if (n > len)
+		n = len;
 	pointer = malloc(sizeof(s1) + n);
 	if (pointer == NULL)
 		return (NULL);
-	len = strlen(s1);
 	for (i = 0; i < len; i++)
 		pointer[i] = s1[i];
-	if (s2 == NULL)
-	{
-		pointer[i] = '\0';
-		return (pointer);
-	}
 	for (j = 0; j < n; j++, i++)
 		pointer[i] = s2[j];
 	pointer[i] = '\0';
