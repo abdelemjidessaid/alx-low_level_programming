@@ -6,4 +6,6 @@
 >
 > - **1-string_nconcat.c** This function of task 1 that concatenate 2 strings.
 >
+> - **2-calloc.c** This function of task 2 that allocates memory with C calloc function.
+>
 >
