@@ -13,14 +13,14 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *pointer;
-	int i, len;
-	unsigned int j;
+	unsigned int i, j, len, len2;
 
 	if (s1 == NULL || s2 == NULL)
 		return (NULL);
-	len  = strlen(s2);
-	if (n > len)
-		n = len;
+	len2  = (unsigned int) strlen(s2);
+	len = (unsigned int) strlen(s1);
+	if (n > len2)
+		n = len2;
 	pointer = malloc(sizeof(s1) + n);
 	if (pointer == NULL)
 		return (NULL);
