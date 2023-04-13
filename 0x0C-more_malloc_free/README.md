@@ -10,4 +10,6 @@
 >
 > - **3-array_range.c** This function of task 3 that allocates memory for an array of integers.
 >
+> - **100-realloc.c** This function of task 4 that reallocates memory of a pointer.
+>
 >
