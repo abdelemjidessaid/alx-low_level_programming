@@ -18,4 +18,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
 #endif /* end */
 
+#ifndef ARRAY_RANGE /* start */
+#define ARRAY_RANGE
+int *array_range(int min, int max);
+#endif /* end */
+
 

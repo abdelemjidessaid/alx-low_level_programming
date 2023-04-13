@@ -8,4 +8,6 @@
 >
 > - **2-calloc.c** This function of task 2 that allocates memory with C calloc function.
 >
+> - **3-array_range.c** This function of task 3 that allocates memory for an array of integers.
+>
 >
