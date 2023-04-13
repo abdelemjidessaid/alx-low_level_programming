@@ -42,9 +42,9 @@ int main(void)
     int i;
 
     p = malloc(sizeof(char) * 10);
-    p = _realloc(p, sizeof(char) * 10, sizeof(char) * 98);
+    p = _realloc(p, sizeof(char) * 10, sizeof(char) * 5);
     i = 0;
-    while (i < 98)
+    while (i < 5)
     {
         p[i++] = 98;
     }
