@@ -33,4 +33,7 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 #endif /* _NEW_DOG_ */
 
-
+#ifndef _FREE_DOG_
+#define _FREE_DOG_
+void free_dog(dog_t *d);
+#endif /* _FREE_DOG_ */
