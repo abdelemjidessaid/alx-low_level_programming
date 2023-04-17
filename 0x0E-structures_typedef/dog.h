@@ -27,3 +27,10 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 #define _PRINT_DOG_
 void print_dog(struct dog *d);
 #endif /* _PRING_DOG_ */
+
+#ifndef _NEW_DOG_
+#define _NEW_DOG_
+dog_t *new_dog(char *name, float age, char *owner);
+#endif /* _NEW_DOG_ */
+
+
