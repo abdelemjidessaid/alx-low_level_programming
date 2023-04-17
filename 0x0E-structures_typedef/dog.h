@@ -1,6 +1,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+#ifndef DOG /* start */
+#define DOG
+
 /**
  * struct dog - struct to create dog objects.
  * @name: charsequence that contains the dog name.
@@ -11,8 +14,11 @@
  * dog object that contains dog's name, age and owner name.
  */
 
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
 };
+
+#endif /* end */
