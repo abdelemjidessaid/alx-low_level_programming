@@ -1,8 +1,5 @@
-#include <string.h>
-#include <stdlib.h>
-
-#ifndef DOG /* start */
-#define DOG
+#ifndef _DOG_H_
+#define _DOG_H_
 
 /**
  * struct dog - struct to create dog objects.
@@ -13,12 +10,10 @@
  * Description: dog struct is a new data type that is uses to define new
  * dog object that contains dog's name, age and owner name.
  */
-
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
-#endif /* end */
+#endif /* _DOG_H_ */
