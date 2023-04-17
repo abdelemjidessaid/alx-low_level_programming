@@ -10,12 +10,12 @@
  * Description: dog struct is a new data type that is uses to define new
  * dog object that contains dog's name, age and owner name.
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 #endif /* _DOG_H_ */
 
 #ifndef _INIT_DOG_
