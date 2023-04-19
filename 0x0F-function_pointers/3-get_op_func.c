@@ -23,7 +23,7 @@ int (*get_op_func(char *s))(int, int)
 	while (i < 6)
 	{
 		if (ops[i].op[0] == s[0])
-			return ops[i].f;
+			return (ops[i].f);
 		i++;
 	}
 

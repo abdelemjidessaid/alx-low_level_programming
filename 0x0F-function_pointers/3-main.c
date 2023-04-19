@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	if (argc != 4)
 	{
 		printf("Error %d \n", argc);
-		exit (98);
+		exit(98);
 	}
 	num_1 = atoi(argv[1]);
 	num_2 = atoi(argv[3]);
@@ -29,20 +29,20 @@ int main(int argc, char **argv)
 	if (op_len != 1)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	if ((operator[0] == '/' || operator[0] == '%') && num_2 == 0)
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
 
 	function = get_op_func(operator);
 	if (function == NULL)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	result = function(num_1, num_2);
