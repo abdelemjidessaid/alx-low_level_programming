@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int op_len, num_1, num_2, result;
+	int num_1, num_2, result;
 	char *operator;
 	int (*function)(int, int);
 
@@ -24,22 +24,15 @@ int main(int argc, char **argv)
 	num_1 = atoi(argv[1]);
 	num_2 = atoi(argv[3]);
 	operator = argv[2];
-	op_len = strlen(operator);
 
-	if (op_len != 1)
-	{
-		printf("Error\n");
-		exit(99);
-	}
-
-	if ((operator[0] == '/' || operator[0] == '%') && num_2 == 0)
+	if ((*operator == '/' || *operator == '%') && num_2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
 	function = get_op_func(operator);
-	if (function == NULL)
+	if (function == NULL || operator[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
