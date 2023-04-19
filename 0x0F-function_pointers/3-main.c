@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 
 	if (argc != 4)
 	{
-		printf("Error %d \n", argc);
+		printf("Error\n");
 		exit(98);
 	}
 	num_1 = atoi(argv[1]);
