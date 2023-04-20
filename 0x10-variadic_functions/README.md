@@ -10,4 +10,4 @@
 >
 > - **2-print_strings.c** This variadic funtion prints all strings that provided as parameters followed by new line.
 >
-> - ****
+> - **3-print_all.c** This variadic function prints all data types
