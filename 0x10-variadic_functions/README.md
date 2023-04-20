@@ -8,4 +8,6 @@
 >
 > - **1-print_numbers.c** This variadic function prints all numbers that provided as parameters followed by new line.
 >
+> - **2-print_strings.c** This variadic funtion prints all strings that provided as parameters followed by new line.
+>
 > - ****
