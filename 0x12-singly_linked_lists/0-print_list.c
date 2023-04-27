@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
 	char *data;
 	int len;
 
-	while(ptr)
+	while (ptr)
 	{
 		printed++;
 		data = ptr->str;
