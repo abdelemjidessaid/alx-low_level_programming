@@ -7,3 +7,5 @@
 > - **1-list_len.c** file contains a function that calcs the elements of a given linked list.
 >
 > - **2-add_node.c** file contains a function that adds a new node to the beginning of a given linked list.
+>
+> - **3-add_node_end.c** file contains a function that adds a new node the end of a given linked list.
