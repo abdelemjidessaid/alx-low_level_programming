@@ -1,21 +1,19 @@
-extern printf
+section .data
+    message db "Hello, Holberton", 0xA
 
 section .text
-global main
+    global _start
 
-main:
-push rbp
+_start:
+    ; Write the message to stdout
+    mov rax, 1
+    mov rdi, 1
+    mov rsi, message
+    mov rdx, 16
+    syscall
 
-mov rdi, fmt
-mov rsi, msg
-mov rax, 0
-call printf
+    ; Exit with status code 0
+    mov rax, 60
+    xor rdi, rdi
+    syscall
 
-pop rbp
-
-mov rax, 0
-ret
-
-section .data
-msg: db "Hello, Holberton", 0
-fmt: db "%s", 10, 0
