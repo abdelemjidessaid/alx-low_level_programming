@@ -12,4 +12,6 @@
 >
 > - **4-free_listint.c** Function that frees memory allocated by a linked list.
 >
+> - **5-free_listint2.c** Function that frees memory allocated by linked list by setting null to the head.
+>
 > - ****
