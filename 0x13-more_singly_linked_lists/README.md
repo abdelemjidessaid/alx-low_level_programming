@@ -14,4 +14,6 @@
 >
 > - **5-free_listint2.c** Function that frees memory allocated by linked list by setting null to the head.
 >
+> - **6-pop_listint.c** Function that deletes head node of a linked list and returns its data.
+>
 > - ****
