@@ -9,3 +9,7 @@
 > - **2-add_nodeint.c** Function that adds new node to the beginning of a linked list.
 >
 > - **3-add_nodeint_end.c** Function that adds new node to the end of a linked list.
+>
+> - **4-free_listint.c** Function that frees memory allocated by a linked list.
+>
+> - ****
