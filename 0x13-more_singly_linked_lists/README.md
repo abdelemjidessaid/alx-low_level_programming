@@ -16,4 +16,6 @@
 >
 > - **6-pop_listint.c** Function that deletes head node of a linked list and returns its data.
 >
+> - **7-get_nodeint.c** Function that returns the node from a liked list using the index.
+>
 > - ****
