@@ -18,4 +18,6 @@
 >
 > - **7-get_nodeint.c** Function that returns the node from a liked list using the index.
 >
+> - **8-sum_listint.c** Function that returns the sum of all data of a linked lists.
+>
 > - ****
