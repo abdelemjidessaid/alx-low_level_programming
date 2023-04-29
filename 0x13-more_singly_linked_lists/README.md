@@ -34,4 +34,6 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `9-insert_nodeint.c` Function that adds new node in a specific index.
 >
+> - `10-delete_nodeint.c` Function that deletes node at a specified index.
+>
 > - ``
