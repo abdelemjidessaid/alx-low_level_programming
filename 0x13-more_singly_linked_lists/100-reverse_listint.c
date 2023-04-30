@@ -34,6 +34,10 @@ listint_t *reverse(listint_t *head)
  */
 listint_t *reverse_listint(listint_t **head)
 {
+	if (*head == NULL)
+		return (*head);
+	if (*head->next == NULL)
+		return (*head);
 	*head = reverse(*head);
 	return (*head);
 }
