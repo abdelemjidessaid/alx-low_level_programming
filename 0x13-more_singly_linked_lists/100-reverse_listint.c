@@ -26,7 +26,6 @@ listint_t *reverse(listint_t *head)
 	return (head);
 }
 
-
 /**
  * reverse_listint - function that reverses a linked list.
  * @head: pointer of pointer of head node of a linked list.
@@ -36,7 +35,7 @@ listint_t *reverse_listint(listint_t **head)
 {
 	if (*head == NULL)
 		return (*head);
-	if (*head->next == NULL)
+	if ((*head)->next == NULL)
 		return (*head);
 	*head = reverse(*head);
 	return (*head);
