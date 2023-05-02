@@ -36,4 +36,8 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `10-delete_nodeint.c` Function that deletes node at a specified index.
 >
+> - `100-reverse_listint.c` Function that reverses a linked list.
+>
+> - `101-print_listint_safe.c` Function that prints the data of a linked list safely.
+>
 > - ``
