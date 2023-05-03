@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
@@ -15,6 +14,7 @@ int main(void)
     listint_t *node;
 
     head2 = NULL;
+    printf("first\n");
     add_nodeint(&head2, 0);
     add_nodeint(&head2, 1);
     add_nodeint(&head2, 2);
@@ -25,6 +25,7 @@ int main(void)
     add_nodeint(&head2, 1024);
     print_listint_safe(head2);
     head = NULL;
+    printf("second\n");
     node = add_nodeint(&head, 0);
     add_nodeint(&head, 1);
     add_nodeint(&head, 2);
