@@ -40,4 +40,6 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `101-print_listint_safe.c` Function that prints the data of a linked list safely.
 >
+> - `102-free_listint_safe.c` Function that frees a linked list safely.
+>
 > - ``
