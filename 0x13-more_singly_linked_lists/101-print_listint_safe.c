@@ -8,10 +8,13 @@
 size_t get_linked_length(const listint_t *head)
 {
 	size_t count = 1;
-	const listint_t *second = head->next, *first = (head->next)->next;
+	const listint_t *second, *first;
 
-	if (!second || !first)
+	if (!head || !(head->next))
 		return (0);
+	second = head->next;
+	first = (head->next)->next;
+
 	while (first)
 	{
 		if (first == second)
