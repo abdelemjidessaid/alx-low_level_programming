@@ -3,7 +3,7 @@
 /**
  * get_linked_length - function that counts the nodes of the looped linked list
  * @head: the pointer to the head node of the linked list.
- * Retrun: if linked list is looped return the count of nodes, 0 otherwise.
+ * Return: if linked list is looped return the count of nodes, 0 otherwise.
  */
 size_t get_linked_length(const listint_t *head)
 {
