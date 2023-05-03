@@ -1,25 +1,41 @@
 #include "lists.h"
 
 /**
- * get_linked_length - function that count the node of a linked list
- * @head: the pointer of the header node of the linked list.
- * Retrun: the count of the nodes of the linked list.
+ * get_linked_length - function that counts the nodes of the looped linked list
+ * @head: the pointer to the head node of the linked list.
+ * Retrun: if linked list is looped return the count of nodes, 0 otherwise.
  */
 size_t get_linked_length(const listint_t *head)
 {
-	size_t count = 0;
-	const listint_t *current = head, *prev = NULL;
+	size_t count = 1;
+	const listint_t *second = head->next, *first = (head->next)->next;
 
-	while (current)
+	if (!second || !first)
+		return (0);
+	while (first)
 	{
-		if (prev)
-			if (current >= prev)
-				return (++count);
-		prev = current;
-		current = current->next;
-		count++;
+		if (first == second)
+		{
+			second = head;
+			while (second != first)
+			{
+				count++;
+				second = second->next;
+				first = first->next;
+			}
+			second = second->next;
+			while (second != first)
+			{
+				count++;
+				second = second->next;
+			}
+			return (count);
+		}
+
+		second = second->next;
+		first = (first->next)->next;
 	}
-	return (count);
+	return (0);
 }
 
 /**
@@ -31,22 +47,23 @@ size_t get_linked_length(const listint_t *head)
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t count = get_linked_length(head), i = 0;
-	const listint_t *current = head, *prev = NULL;
 
-	while (current && i <= count)
+	if (!count)
 	{
-		if (prev)
+		for ( ; !head; count++)
 		{
-			if (current >= prev)
-			{
-				printf("-> [%p] %d\n", (void *)current, current->n);
-				exit(98);
-			}
+			printf("[%p] %d\n", (void *)head, head->n);
+			head = head->next;
 		}
-		printf("[%p] %d\n", (void *)current, current->n);
-		prev = current;
-		current = current->next;
-		i++;
+	}
+	else
+	{
+		for ( ; i < count; i++)
+		{
+			printf("[%p] %d\n", (void *)head, head->n);
+			head = head->next;
+		}
+		printf("-> [%p] %d\n", (void *)head, head->n);
 	}
 
 	return (count);
