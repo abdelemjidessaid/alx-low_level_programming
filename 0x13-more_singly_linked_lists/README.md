@@ -42,4 +42,4 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `102-free_listint_safe.c` Function that frees a linked list safely.
 >
-> - ``
+> - `103-find_loop.c` Function that finds the loop in a linked list.
