@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - function that 
+ * free_listint_safe - function that
  * @h: the pointer to the head node of the linked list.
  * Return: the count of nodes that freed.
  */
