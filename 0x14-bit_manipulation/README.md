@@ -26,4 +26,4 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `5-flip_bits.c` Function that returns the number of bits you would need to flip to get from one number to another.
 >
-> - ``
+> - `101-password` File that contains the password of task 101.
