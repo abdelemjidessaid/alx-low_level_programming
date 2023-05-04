@@ -18,4 +18,6 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `1-print_binary.c` Function that prints __binary__ code of __unsigned integer__.
 >
+> - `2-get_bit.c` Function that returns the __bit__ at a given index.
+>
 > - ``
