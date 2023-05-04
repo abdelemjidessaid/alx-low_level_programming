@@ -2,7 +2,7 @@
 
 /**
  * power - function that calc power of number.
- * @num: the number. 
+ * @num: the number.
  * @p: power.
  * Return: the number to the power of p.
  */
