@@ -16,4 +16,6 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 
 > - `0-binary_to_uint.c` Function that converts __binary__ code to __unsigned integer__.
 >
+> - `1-print_binary.c` Function that prints __binary__ code of __unsigned integer__.
+>
 > - ``
