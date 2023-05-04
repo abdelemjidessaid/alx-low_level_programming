@@ -36,26 +36,30 @@
 
 # Learning C Programming Language
 
-> - **0x00-hello_world** Learning how to **print Hello World** in C
+> - `0x00-hello_world` Learning how to **print Hello World** in C
 >
-> - **0x01-variables_if_else_while** Learning Variables and Condition Statements in C
+> - `0x01-variables_if_else_while` Learning Variables and Condition Statements in C
 >
-> - **0x02-functions_nested_loops** Learning Functions & Loops in C
+> - `0x02-functions_nested_loops` Learning Functions & Loops in C
 >
-> - **0x03-debugging** Learning debugging in C.
+> - `0x03-debugging` Learning debugging in C.
 >
-> - **0x04-more_functions_nested_loops** Learning more about ***Funstions & Nested Loops*** in C.
+> - `0x04-more_functions_nested_loops` Learning more about ***Funstions & Nested Loops*** in C.
 >
-> - **0x05-pointers_arrays_strings** Learning ***Pointers, Arrays & Strings*** in C.
+> - `0x05-pointers_arrays_strings` Learning ***Pointers, Arrays & Strings*** in C.
 >
-> - **0x06-pointers_arrays_strings** Learning more about ***Arrays, Pointers & Strings*** in C.
+> - `0x06-pointers_arrays_strings` Learning more about ***Arrays, Pointers & Strings*** in C.
 >
-> - **0x07-pointers_arrays_strings** Learning more about ***Arrays, Pointers, Strings*** in C.
+> - `0x07-pointers_arrays_strings` Learning more about ***Arrays, Pointers, Strings*** in C.
 >
-> - **0x08-recursion** Learning recursion in C.
+> - `0x08-recursion` Learning recursion in C.
 >
-> - **0x0F-function_pointers** Learning function pointers.
+> - `0x0F-function_pointers` Learning function pointers.
 >
-> - **0x10-variadic_functions** Learning Variadic Functions.
+> - `0x10-variadic_functions` Learning Variadic Functions.
 >
-> - **0x12-singly_linked_lists** Learning ___Linked List___ Data structue.
+> - `0x12-singly_linked_lists` Learning ___Linked List___ Data structue.
+>
+> - `0x13-more_singly_linked_lists` Learning more about ___Linked Lists___ Data structure.
+>
+> - `0x14-bit_manipulation` Learning bit manipulating in C.
