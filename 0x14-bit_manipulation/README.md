@@ -20,4 +20,4 @@ This project contains tasks that's given by ALX in the program of `SE` (Software
 >
 > - `2-get_bit.c` Function that returns the __bit__ at a given index.
 >
-> - ``
+> - `3-set_bit.c` Fuction that sets a value of __1__ at a given index.
