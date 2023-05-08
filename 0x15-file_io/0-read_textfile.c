@@ -8,7 +8,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t count = 0, rest, read_flag = 0, write_flag = 0;
+	ssize_t count = 0, rest, read_flag = 0;
 	size_t len;
 	int fd;
 	char *buf;
@@ -24,18 +24,24 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	do {
 		if (rest < BUF_SIZE)
-			read_flag = read(fd, buf, rest);
+		{
+			read_flag = read(fd, buf, rest - 1);
+			buf[rest - 1] = '\0';
+		}
 		else
-			read_flag = read(fd, buf, sizeof(buf));
+		{
+			read_flag = read(fd, buf, sizeof(buf) - 1);
+			buf[sizeof(buf) - 1] = '\0';
+		}
 		if (read_flag == -1)
 			return (0);
 		len = (size_t) read_flag;
 		count += len;
 		rest = letters - count;
-		write_flag = write(1, buf, len);
-		if (write_flag == -1)
+		if (write(STDOUT_FILENO, buf, len) == -1)
 			return (0);
 	} while (((size_t) count) < letters && len > 0);
+	close(fd);
 
 	return (count);
 }
