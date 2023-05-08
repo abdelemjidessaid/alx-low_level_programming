@@ -8,4 +8,6 @@
 >
 > - `2-append_text_to_file.c` Function that append content to a file.
 >
+> - `3-cp.c` Program that copies the content of a file to another file.
+>
 > - ``
