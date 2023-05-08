@@ -8,11 +8,12 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t count = 0;
+	ssize_t count = 0, rest;
 	size_t len;
 	int fd;
 	char *buf;
 
+	rest = letters >= BUF_SIZE ? BUF_SIZE : letters;
 	if (filename == NULL)
 		return (0);
 	buf = malloc(BUF_SIZE * sizeof(char));
@@ -22,8 +23,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fd == -1)
 		return (0);
 	do {
-		len = read(fd, buf, sizeof(buf));
+		if (rest < BUF_SIZE)
+			len = read(fd, buf, rest);
+		else
+			len = read(fd, buf, sizeof(buf));
 		count += len;
+		rest = letters - count;
 		printf("%s", buf);
 	} while (((size_t) count) < letters && len > 0);
 
