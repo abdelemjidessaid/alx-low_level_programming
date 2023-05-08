@@ -8,7 +8,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, status = 1, len;
+	int fd, status = 1, len = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -16,10 +16,10 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 	if (text_content != NULL)
-		len = strlen(text_content);
-	if (len > 0)
-		if (write(fd, text_content, len) == -1)
-			return (-1);
+		for ( ; text_content[len]; )
+			len++;
+	if (write(fd, text_content, len) == -1)
+		return (-1);
 	close(fd);
 
 	return (status);
