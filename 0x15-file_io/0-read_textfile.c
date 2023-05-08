@@ -25,24 +25,27 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	do {
 		if (rest < BUF_SIZE)
 		{
-			read_flag = read(fd, buf, rest - 1);
-			buf[rest - 1] = '\0';
+			read_flag = read(fd, buf, rest);
 		}
 		else
 		{
-			read_flag = read(fd, buf, sizeof(buf) - 1);
-			buf[sizeof(buf) - 1] = '\0';
+			read_flag = read(fd, buf, sizeof(buf));
 		}
 		if (read_flag == -1)
+		{
+			close(fd);
 			return (0);
+		}
 		len = (size_t) read_flag;
 		count += len;
 		rest = letters - count;
 		if (write(STDOUT_FILENO, buf, len) == -1)
+		{
+			close(fd);
 			return (0);
+		}
 	} while (((size_t) count) < letters && len > 0);
 	close(fd);
-
 	return (count);
 }
 
