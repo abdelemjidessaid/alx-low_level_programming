@@ -33,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		len = (size_t) flag;
 		count += len;
 		rest = letters - count;
-		printf("%s", buf);
+		write(1, buf, len);
 	} while (((size_t) count) < letters && len > 0);
 
 	return (count);
