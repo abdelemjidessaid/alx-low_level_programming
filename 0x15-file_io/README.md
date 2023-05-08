@@ -6,4 +6,6 @@
 >
 > - `1-create_file.c` Function that creates a file on write a content on it.
 >
+> - `2-append_text_to_file.c` Function that append content to a file.
+>
 > - ``
