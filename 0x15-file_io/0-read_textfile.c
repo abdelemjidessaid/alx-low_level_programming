@@ -27,6 +27,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			len = read(fd, buf, rest);
 		else
 			len = read(fd, buf, sizeof(buf));
+		if (len == -1)
+			return (0);
 		count += len;
 		rest = letters - count;
 		printf("%s", buf);
