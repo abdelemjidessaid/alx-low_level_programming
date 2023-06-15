@@ -8,4 +8,6 @@
 >
 > - `2-add_dnodeint.c` Function that adds a new node at the beginning of a given doubly linked list.
 >
+> - `3-add_dnodeint_end.c` Function that adds a new node at the end of a dlistint_t list.
+>
 > - ``
