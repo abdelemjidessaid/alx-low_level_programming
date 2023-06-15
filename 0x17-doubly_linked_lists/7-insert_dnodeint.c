@@ -42,9 +42,13 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		}
 		else
 		{
-			cur = add_dnodeint_end(&prev, n);
-			if (!prev)
+			if (prev)
+			{
+				cur = add_dnodeint_end(&prev, n);
 				*h = cur;
+			}
+			else
+				cur = add_dnodeint_end(&prev, n);
 		}
 		return (cur);
 	}
