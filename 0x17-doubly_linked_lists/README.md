@@ -6,4 +6,6 @@
 >
 > - `1-dlistint_len.c` Function that returns the number of elements in a linked dlistint_t list.
 >
+> - `2-add_dnodeint.c` Function that adds a new node at the beginning of a given doubly linked list.
+>
 > - ``
