@@ -10,4 +10,6 @@
 >
 > - `3-add_dnodeint_end.c` Function that adds a new node at the end of a dlistint_t list.
 >
+> - `4-free_dlistint.c` Function that frees a dlistint_t list.
+>
 > - ``
