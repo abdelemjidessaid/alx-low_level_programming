@@ -14,4 +14,6 @@
 >
 > - `5-get_dnodeint.c` Function that returns the nth node of a dlistint_t linked list.
 >
+> - `6-sum_dlistint.c` Function that returns the sum of all the data (n) of a dlistint_t linked list.
+>
 > - ``
