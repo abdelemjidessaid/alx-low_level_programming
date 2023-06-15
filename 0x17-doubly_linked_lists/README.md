@@ -12,4 +12,6 @@
 >
 > - `4-free_dlistint.c` Function that frees a dlistint_t list.
 >
+> - `5-get_dnodeint.c` Function that returns the nth node of a dlistint_t linked list.
+>
 > - ``
