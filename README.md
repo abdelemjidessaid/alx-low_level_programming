@@ -63,3 +63,5 @@
 > - `0x13-more_singly_linked_lists` Learning more about ___Linked Lists___ Data structure.
 >
 > - `0x14-bit_manipulation` Learning bit manipulating in C.
+>
+> - `0x17-doubly_linked_lists` In this project we will learn __Doubly linked lists__ in C.
