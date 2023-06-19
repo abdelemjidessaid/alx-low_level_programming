@@ -8,4 +8,4 @@
 > - `main.h` Header file that contains the prototypes of functions that is inculded in Shared Library.
 >
 > - __******************** Task 1 files ********************__
-> - ``
+> - `1-create_dynamic_lib.sh` Program that creates a dynamic library from all files those have extension of .c
