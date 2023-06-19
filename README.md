@@ -65,3 +65,5 @@
 > - `0x14-bit_manipulation` Learning bit manipulating in C.
 >
 > - `0x17-doubly_linked_lists` In this project we will learn __Doubly linked lists__ in C.
+>
+> - `0x18-dynamic_libraries` In this project we will learn __Dynamic Libraries__ in C.
