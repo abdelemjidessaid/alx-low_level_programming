@@ -13,6 +13,12 @@ void hash_table_delete(hash_table_t *ht)
 	if (ht == NULL)
 		return;
 
+	if (!(ht->array))
+	{
+		free(ht);
+		return;
+	}
+
 	for (i = 0; i < ht->size; i++)
 	{
 		head = ht->array[i];
