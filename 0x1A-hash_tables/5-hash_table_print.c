@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_print - function that prints a hash table.
+ * hash_table_print - function that prints a hash table data.
  * @ht: pointer of hash table.
  * Return: void.
 */
@@ -12,9 +12,9 @@ void hash_table_print(const hash_table_t *ht)
 	int first = 1;
 
 	if (ht == NULL)
-		printf("{}");
+		return;
 
-	printf("{");
+	putchar('{');
 	for (i = 0; i < ht->size; i++)
 	{
 		head = ht->array[i];
