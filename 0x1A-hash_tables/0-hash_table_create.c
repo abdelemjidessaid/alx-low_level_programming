@@ -1,6 +1,5 @@
 #include "hash_tables.h"
 
-hash_node_t *allocate_new_node();
 void free_allocated(hash_node_t **array, unsigned long int bound);
 
 /**
@@ -17,7 +16,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	unsigned long int i;
 
 	table = malloc(sizeof(hash_table_t));
-	if (table == NULL || size  == 0)
+	if (table == NULL)
 		return (NULL);
 	table->size = size;
 
@@ -30,37 +29,21 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	for (i = 0; i < size; i++)
 	{
-		node_array[i] = allocate_new_node();
+		node_array[i] = malloc(sizeof(hash_node_t));
 		if (node_array[i] == NULL)
 		{
 			free_allocated(node_array, i);
 			free(table);
 			return (NULL);
 		}
+		node_array[i]->key = NULL;
+		node_array[i]->next = NULL;
+		node_array[i]->value = NULL;
 	}
 	node_array[i] = NULL;
 	table->array = node_array;
 
 	return (table);
-}
-
-/**
- * allocate_new_node - function that creates new node pointer.
- * Return: pointer to the new node, NULL if fails.
-*/
-hash_node_t *allocate_new_node()
-{
-	hash_node_t *node;
-
-	node = malloc(sizeof(hash_node_t));
-	if (node == NULL)
-		return (NULL);
-
-	node->key = NULL;
-	node->next = NULL;
-	node->value = NULL;
-
-	return (node);
 }
 
 /**
