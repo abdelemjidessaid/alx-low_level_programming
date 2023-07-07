@@ -17,7 +17,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	unsigned long int i;
 
 	table = malloc(sizeof(hash_table_t));
-	if (table == NULL)
+	if (table == NULL || size  == 0)
 		return (NULL);
 	table->size = size;
 
@@ -27,6 +27,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(table);
 		return (NULL);
 	}
+
 	for (i = 0; i < size; i++)
 	{
 		node_array[i] = allocate_new_node();
@@ -39,6 +40,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	}
 	node_array[i] = NULL;
 	table->array = node_array;
+
 	return (table);
 }
 
@@ -64,7 +66,7 @@ hash_node_t *allocate_new_node()
 /**
  * free_allocated - function that frees the allocated nodes in node array.
  * @array: pointer of array of nodes.
- * @bound: the number of node that are allocated.
+ * @bound: the number of nodes that are allocated.
  * Return: void.
 */
 void free_allocated(hash_node_t **array, unsigned long int bound)
