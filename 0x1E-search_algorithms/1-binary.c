@@ -39,7 +39,7 @@ int binary_search(int *array, size_t size, int value)
 	if (!array)
 		return (-1);
 
-    print(i, j, array);
+	print(i, j, array);
 
 	while (i < j)
 	{
