@@ -41,7 +41,7 @@ int binary_search(int *array, size_t size, int value)
 
 	print(i, j, array);
 
-	while (i <= j)
+	while (i < j)
 	{
 		index = (i + j) / 2;
 
