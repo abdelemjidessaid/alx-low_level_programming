@@ -36,12 +36,12 @@ int binary_search(int *array, size_t size, int value)
 {
 	size_t i = 0, j = size - 1, index;
 
-	if (!array)
+	if (!array || size == 0)
 		return (-1);
 
 	print(i, j, array);
 
-	while (i < j)
+	while (i <= j)
 	{
 		index = (i + j) / 2;
 
