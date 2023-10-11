@@ -16,9 +16,9 @@ int interpolation_search(int *array, size_t size, int value)
 	if (!array || size == 0)
 		return (-1);
 
-	while (l <= r)
+	while (array[l] != array[r] && value >= array[l] && value <= array[r])
 	{
-		i = (r - l) / (array[r] - array[l]) * (value - array[l]);
+		i = l + ((r - l) / (array[r] - array[l])) * (value - array[l]);
 		printf("Value checked array[%ld]", i);
 		if (i >= size)
 		{
@@ -35,6 +35,8 @@ int interpolation_search(int *array, size_t size, int value)
 		else
 			l = i + 1;
 	}
+	if (value == array[l])
+		return (l);
 
 	return (-1);
 }
