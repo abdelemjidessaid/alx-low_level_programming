@@ -29,7 +29,7 @@ int interpolation_search(int *array, size_t size, int value)
 			printf(" = [%d]\n", array[i]);
 
 		if (array[i] == value)
-			return (i);
+			return ((int) i);
 		else if (array[i] > value)
 			r = i - 1;
 		else
