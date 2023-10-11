@@ -36,7 +36,10 @@ int interpolation_search(int *array, size_t size, int value)
 			l = i + 1;
 	}
 	if (value == array[l])
+	{
+		printf("Value checked array[%ld] = [%d]\n", l, array[l]);
 		return (l);
+	}
 
 	return (-1);
 }
